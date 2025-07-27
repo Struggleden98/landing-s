@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Struggleden98 - Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body>
+  <div class="container">
+    <img src="assets/logo.png" alt="Logo Struggleden98" class="logo" />
+    <h1>Benvenuto nella Community di <span class="highlight">Struggleden98</span></h1>
+    <p>Unisciti alla nostra rete e scopri il mondo del gaming!</p>
+    <div class="buttons">
+      <a href="https://www.instagram.com/struggleden98_official?igsh=MXIxOTM4ZG90cjRyMQ==" target="_blank">📸 Instagram</a>
+      <a href="https://discord.gg/52Kk85qR4n" target="_blank">💬 Discord</a>
+      <a href="https://areariservata.smartgaincommunity.com/optin-60093c01.html?idg=a7e9295d2ebca512bf486e9388868a97" target="_blank">🚀 Business Gratuito</a>
+      <a href="https://amzn.eu/2CqfozF" target="_blank">🎮 Il mio Setup</a>
+      <a href="https://discord.gg/ZSRBaJzgfy" target="_blank">🤝 Collabora con me</a>
+    </div>
+  </div>
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #5c00ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: #FFD000;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.buttons a {
+  display: block;
+  background-color: #FFD000;
+  color: black;
+  text-decoration: none;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.buttons a:hover {
+  background-color: #e6ba00;
+}
